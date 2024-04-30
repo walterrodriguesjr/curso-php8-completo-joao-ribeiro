@@ -1,0 +1,14 @@
+1-introdução ao curso 
+-ok
+
+2-o que é o PHP e como funciona? 
+-linguagem de programação web 
+-destinado para produçã ode conteúdo dinâmico 
+
+3-instalação do laragon e php8 
+-ok 
+
+4-instalação do visual studio code e extensões para php 
+ok 
+
+5-
