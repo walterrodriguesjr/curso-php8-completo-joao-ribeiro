@@ -14,4 +14,28 @@ https://www.youtube.com/playlist?list=PLXik_5Br-zO9wODVI0j58VuZXkITMf7gZ
 ok 
 
 
-5-
+5 FLUXO DE FUNCIONAMENTO DO AMBIENTE DE DESENVOLVIMENTO E ALGUNS AJUSTAMENTOS
+-ok 
+
+6 COMO CRIAR SCRIPT DE PHP E COMO USAR PHP COM HTML
+-a maneira padrão, abrir e fechar o script de PHP: <?php  ?> 
+
+7-PORQUÊ INDEX PHP E INDEX HTML
+-index remete a: "índice" 
+-por padrão do apache, index.html tem precedência ao index.php, porém, pode ser alterado 
+
+8-APRESENTAÇÃO DE CONTEÚDO EM PHP
+-usa-se o echo e o print (printr para arrays)
+
+9-COMENTÁRIOS EM PHP
+-sistema para documentar o código. 
+-comentário não aparece na tela quando o código é rodado
+-atalho: shift + alt + a 
+
+10-VARIÁVEIS
+-variável é como se fosse uma caixa, onde é possível guardar todo tipo de dado. 
+-a variável suporta operações aritméticas 
+-as variáveis não são tipadas 
+-seus valores podem ser redefinidas e serem alteradas 
+-variáveis são caseSensitive 
+-
