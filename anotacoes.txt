@@ -38,4 +38,23 @@ ok
 -as variáveis não são tipadas 
 -seus valores podem ser redefinidas e serem alteradas 
 -variáveis são caseSensitive 
--
+
+11-TIPOS DE DADOS
+-existem vários tipos de variáveis: texto, int, float, booleano, array, objeto
+-php não é tipado, sendo assim, que uma variável pode receber qualquer tipo de dado 
+-objetos são instâncias de uma classe, pode conter diversos dados, usando chave e valor 
+
+12-OPERADOR DE ATRIBUIÇÃO E OPERADORES MATEMÁTICOS
+-os de atribuição temos: = (recebe), ==(igual em valor), === (igual em valor e tipo);
+-os matemáticos são: +, -, *, /, % (módulo - resto), ** (potência)
+
+13-OPERADORES COMBINADOS E DE INCREMENTO E DECREMENTO
+-permite alterar o valor de uma variável, a partir do seu valor original 
+- +=, -=, *=, /= 
+-tem caráter simplificatório 
+-temos também operadores de incremento e decremento 
+- ++, -- 
+-o incremento pode ser antes ou depois da variável, porém, se inserido antes, quando imprimir, já irá 
+    exibir com a alteração, se for depois da variável, ainda não irá aparecer a diferença na primeira 
+    impressão. 
+
