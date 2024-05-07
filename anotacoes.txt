@@ -58,3 +58,14 @@ ok
     exibir com a alteração, se for depois da variável, ainda não irá aparecer a diferença na primeira 
     impressão. 
 
+14-EXERCÍCIOS COM OPERADORES ARITMÉTICOS E DE ATRIBUIÇÃO
+-ok 
+
+15-OPERADORES DE COMPARAÇÃO E SPACESHIP OPERATOR 
+-como o nome diz, serve para mensurar se um valor é maior, igual ou menor que outro.
+-Se é o mesmo tipo também ou não.
+-Se é diferente, e se é diferente em valor e tipo 
+-retorna sempre um booleano 
+-spaceship operator: <=> se é menor, igual ou maior ($x = 3 <=> 2) neste caso $x recebe 1, por 3 ser maior, mas pode receber zero se for igual e -1, se for menor. 
+-
+
