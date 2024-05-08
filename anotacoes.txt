@@ -67,5 +67,18 @@ ok
 -Se é diferente, e se é diferente em valor e tipo 
 -retorna sempre um booleano 
 -spaceship operator: <=> se é menor, igual ou maior ($x = 3 <=> 2) neste caso $x recebe 1, por 3 ser maior, mas pode receber zero se for igual e -1, se for menor. 
--
 
+16-OPERADORES LÓGICOS
+-operadores com ação de: e, ou e negação (&&, ||, !)
+-existe precedência de operadores 
+
+17-INTRODUÇÃO A STRINGS, CONCATENAÇÃO, HEREDOC E NOWDOC
+-string é uam série de caracteres, que podem ser: letras, espaços e algarismos.  
+-pode ser envolto por aspas simples e aspas duplas: (single quote, double quote) 
+-a concatenação, geralmente se usa o 'ponto', para ligar diferentes strings 
+
+18-CARACTERES DE ESCAPE, TERMINAL E HTML ENTITIES
+-caracteres de escape servem para delimitar uma area numa string, evitar por aspas duplas dentro de aspas simples 
+-usa-se tmb o contrabarra \n, para informar onde a linha de uma string deve ser quebrada 
+
+19-
