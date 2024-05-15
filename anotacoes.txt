@@ -81,4 +81,29 @@ ok
 -caracteres de escape servem para delimitar uma area numa string, evitar por aspas duplas dentro de aspas simples 
 -usa-se tmb o contrabarra \n, para informar onde a linha de uma string deve ser quebrada 
 
-19-
+19-FUNÇÕES PARA OPERAR COM STRINGS
+-funções são blocos de códigos que podem ser criados conforme a necessidade, mas também temos as funções nativas do php, com ações pré definidas . 
+-geralmente recebem a variavel a qual será trabalhada, e as vezes também valores de inicio e fim da posição da string 
+
+20-EXERCÍCIOS COM STRINGS E ATIVAÇÃO DE MÓDULOS
+-módulos por padrão a maioria vem 'comentadas' no arquivo php.ini (com ponto e vírgula), sendo necessário descomentar para usar 
+
+21-ARRAYS NUMÉRICOS E ARRAYS ASSOCIATIVOS
+-arrays são coleções de valores (ex: lista de mercado, vários itens dentro de uma variável)
+-cada item tem um índice, começando sempre da posição zero  
+-arrays associativos: são aqueles que tem uam chave personalizada: ex: array = ['nome' => 'Walter'], chama: array['nome'] 
+
+22-ARRAYS MISTOS E ARRAYS MULTIDIMENSIONAIS
+-arrays mistos: são aqueles que combinam índices númericos e strings (nada comum)
+-arrays multidimensionais: são arrays dentro de outro array
+
+23-INSTRUÇÃO CONDICIONAL IF, IF ELSE, IF ELSEIF ELSE
+-são instruções utilizadas para controlar o fluxo da aplicação de acordo com determinadas condições
+
+24-INSTRUÇÃO CONDICIONAL SWITCH E SINTAXE ALTERNATIVA
+-é um sistema de condicional semelhante ao if/else, porém recebe uma variável, e os cases de cada bloco do switch, analisam se é igual 
+
+25-OPERADOR TERNÁRIO
+-é um tipo de estrutura condicional simplificada (abreviada) 
+-
+
