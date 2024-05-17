@@ -1,17 +1,15 @@
 <?php
+   
+  $paises = [
+   'EUA' => 'nova york',
+   'Brasil' => 'Curitiba',
+   'França' => 'Paris'
+  ];
 
-   $nome = "Pedro"; 
+  foreach ($paises as $key => $value) {
+   echo 'país: ' . $key . '/ cidade: ' . $value . "<br>";
+  }
 
-   switch ($nome) {
-      case 'João':
-         echo "nome é João";
-         break;
-      case 'Walter':
-         echo "nome é Walter";
-         break;
-      default:
-         echo "Nenhuma das opções";
-         break;
-   }
+
 
 ?>

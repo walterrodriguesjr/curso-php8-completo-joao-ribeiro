@@ -105,5 +105,30 @@ ok
 
 25-OPERADOR TERNÁRIO
 -é um tipo de estrutura condicional simplificada (abreviada) 
--
+
+26-NOVA INSTRUÇÃO CONDICIONAL MATCH DO PHP 8
+-semelhante ao switch, porém mais compacto 
+
+27-CICLO WHILE
+-primeiro verifica, depois executa
+-importante sempre alterar a condição, incrementando, para não entrar num loop infinito
+
+28-CICLO DO WHILE
+-semelhanteao while, porem ele executa antes de verificar, ou seja, mesmo que não atenda a condição, 
+    ele vai executar a ação pelo menos uma vez 
+
+29-CICLO FOR
+-tipo de ciclo de repetição também 
+-constituído por 3 parametros: 
+-inicialização(contador), condição e incremento(ou decremento)
+
+30-CICLO FOREACH
+-é o tipo de ciclo de iteração dedicado a arays 
+-pode também trabalhar com chave e valor ($key => $value)
+
+31-BREAK, CONTINUE E GOTO
+-break = interrompe a execução de um loop 
+-continue = pula e avança para o próximo ciclo 
+-GOTO = nãO MAIS UTILIZADO 
+
 
