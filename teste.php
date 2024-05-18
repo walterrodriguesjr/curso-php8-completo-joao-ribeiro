@@ -1,15 +1,9 @@
 <?php
-   
-  $paises = [
-   'EUA' => 'nova york',
-   'Brasil' => 'Curitiba',
-   'França' => 'Paris'
-  ];
 
-  foreach ($paises as $key => $value) {
-   echo 'país: ' . $key . '/ cidade: ' . $value . "<br>";
-  }
+function teste(...$par){
+  print_r($par);
+}
 
-
+teste(10, 20, 30, 40);
 
 ?>

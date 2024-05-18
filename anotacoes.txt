@@ -131,4 +131,35 @@ ok
 -continue = pula e avança para o próximo ciclo 
 -GOTO = nãO MAIS UTILIZADO 
 
+32-CRIAÇÃO DE FUNÇÕES
+-functions são blocos de códigos que permitem er reutilizados 
+-elas tem ações pré determinadas para algo específico 
+-necessitam após serem criadas, ser chamadas para então serem executadas 
+-existem funções nativas do PHP, mas também é comum criar as próprias funções 
+-funções aceitam parâmetros, que servem para passar um dado de fora, para ser usada dentro da função 
 
+33-PARÂMETROS DE FUNÇÕES
+-como falado anteriormente, é possível inserir nos parênteses da função, parâmetros (dados)
+-detalhe, a maneira como o parâmetro está escrito na construção da função e dentro, não precisa ser igual 
+    o que está na chamada da função, pois, pelo fato da função poder ser chamada quantas vezes quiser, 
+    é possível usar variáveis diferentes em cada chamada 
+-parâmetros é o nome das variáveis existentes na definição da função (na criação dela)
+-argumentos são dados passados na chamada da função (para que ela seja executada)
+
+34-PARÂMETROS OPCIONAIS
+-é quando se estabelece um valor default para um parâmetro na criação da função, porém, na chamada, 
+    caso seja passado um argumento para esse parâmetro, então ele é substituído 
+-os parâmetros opcionais devem ser posto no final do entre parênteses 
+
+35-NAMED ARGUMENTS PHP8
+-é a possibilidade, em uma função com vários parâmetros, e dentre eles, vários opcionais com valor 
+    default, quando na chamada da função, é possível nomear cada valor de argumento, usando antes do valor 
+    do argumento, o nome dele, seprando o nome e valor por 2 pontos. 
+
+36-NOTAS ADICIONAIS SOBRE PARÂMETROS E VARIADIC PARAMETER
+-a função só pode ser chamada quando seus parâmetros são corretamente passadas 
+-variadic parameter, é passar um parâmetros com 3 pontos, porém, que nele, é possivel incluir vários 
+    argumentos enviados pela chamada da função. Assim, o parâmetro da função se torna um array que recebe 
+    vários dados que chegam pelo argumento da chamada da função 
+
+37-
