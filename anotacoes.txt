@@ -162,4 +162,18 @@ ok
     argumentos enviados pela chamada da função. Assim, o parâmetro da função se torna um array que recebe 
     vários dados que chegam pelo argumento da chamada da função 
 
-37-
+37-A EXPRESSÃO RETURN NUMA FUNÇÃO
+-a expressão return dentro de uma função provoca o fim da execução da função 
+-retorna ao local onde a função foi chamada 
+-geralmente usado para devolver um valor 
+
+38-ESCOPO DE UMA VARIÁVEL E EXPRESSAO GLOBAL
+-o escopo de uma variável, é o limite onde ela existe ou não existe 
+-se uma variável é criada dentro de uma função, ela só existe lá dentro 
+-é possível trazer para dentro de uma função, uma variável criado fora dela, sendo necessário usar a expressão global 
+-quando variáveis são criadas dentro de condicionais ou loops, ao encerrar a operação destes, a variável não é destruída 
+
+39-FUNÇÕES ANÓNIMAS
+-função anônima não tem nome 
+-geralmente é atribuída a uma variável 
+-para chamar ela, chama-se a variável a qual foi atribuída a função 

@@ -1,9 +1,13 @@
 <?php
 
-function teste(...$par){
-  print_r($par);
-}
+$somar = function($num1, $num2){
+  $result = $num1 + $num2;
+  return $result;
+};
 
-teste(10, 20, 30, 40);
+$a = 10;
+$b = 8;
+
+echo $somar($a, $b);
 
 ?>
