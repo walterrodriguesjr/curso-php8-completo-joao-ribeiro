@@ -177,3 +177,23 @@ ok
 -função anônima não tem nome 
 -geralmente é atribuída a uma variável 
 -para chamar ela, chama-se a variável a qual foi atribuída a função 
+
+40-CLOSURES E ARROW FUNCTIONS
+-clousure = são um tipo de função anônima(sem nome, e dentro de uma variável), que além de seu parâmetro normal, 
+    aceita o use($parametroa, $parametrob), nestes, pode se usar variáveis globais, ou seja, estas variáveis externas 
+    podem ser vistas dentro desta função, porém, o conteúdo destas, não podem ser alterados, somente utilizados 
+-arrow function = são um tipo de função anônima escrita de uma maneira mais resumida, capturam automaticamente as variáveis 
+    globais, usam a palavra reservada fn(), não usam chaves 
+
+41-GENERATORS
+-ok 
+
+42-INTRODUÇÃO A CLASSES, PROPRIEDADES E MÉTODOS
+-classe = é um molde, uma forma, que permite criar objetos a sua semelhança 
+    cada classe tem seus atributos e métodos, que ao criar um objeto, estes tmb recebem 
+    ex: class Humano 
+        propriedades(variáveis): altura, pelo, cabelo 
+        métodos: caminhar(funções). cantar(), dormir() 
+
+43-
+
