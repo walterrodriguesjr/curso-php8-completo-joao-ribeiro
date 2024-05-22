@@ -195,5 +195,18 @@ ok
         propriedades(variáveis): altura, pelo, cabelo 
         métodos: caminhar(funções). cantar(), dormir() 
 
-43-
+43-CRIAÇÃO DE OBJETOS, INSTANCIAÇÃO
+-para ter acesso a propriedades e métodos de uma classe, é preciso instancia-la, ou seja, criar um 
+    objeto apartir da classe. 
+-nos métodos das classes, usa-se o $this parautilizar seus atributos, this refere-se a esta mesma(classe)
+
+44-INSTANCIAÇÃO, CONSTRUCT E EXEMPLOS
+-CONSTRUCTOR = método nativo PHP dentro da class que sempre é executado automaticamente quando criado 
+    um objeto.
+
+45-PROPERTY PROMOTION NO PHP 8
+-as classes podem ter além de propridades e métodos, apenas 1 ou outro também 
+-é permitido, definir a propriedade dentro do parâmetro do construct e tmb o seu modificador de acesso 
+-PROPERTY PROMOTION é pq o parâmetro do construct é promovido a propriedade 
+
 
