@@ -209,4 +209,11 @@ ok
 -é permitido, definir a propriedade dentro do parâmetro do construct e tmb o seu modificador de acesso 
 -PROPERTY PROMOTION é pq o parâmetro do construct é promovido a propriedade 
 
+46-CLASSES ANÓNIMAS
+-geralmente usada quando não se pretende instanciar mais de 1 objeto desta class anônima, usa o new class 
 
+47-HERANÇA DE CLASSES
+-uma classe pode herdar propriedades e/ou métodos de uma outra, para isso, usa o método extends da class principal 
+
+48-OVERRIDE EM CLASSES
+-override permite, a classe derivada alterarem propriedades e métodos herdadas das classes principais
