@@ -1,28 +1,26 @@
-<?php
+<?php 
 
-class ClasseTeste
+class Humano
 {
-    public $publica = 'a';
-    protected $protegida = 'b';
-    private $privada = 'c';
 
+    private $idade = 0;
 
-    function teste()
+    function SetIdade($valor)
     {
-        echo $this->privada . "<br>";
+        if(is_numeric($valor)){
+            $this->idade = $valor;
+        }else{
+            echo "Você precisa passar um valor numérido!" . "<br>";
+        }
     }
 
-}
-class ClasseDerivada extends ClasseTeste
-{
-    function testeDerivada()
+    function getIdade()
     {
-       echo $this->publica;
-       echo $this->protegida;
-       /* echo $this->privada; */
+        return $this->idade;
     }
 }
 
-$a = new ClasseTeste;
-echo $a->teste() . "<br>";
+$obj = new Humano();
+$obj->SetIdade(38);
+echo $obj->getIdade();
 

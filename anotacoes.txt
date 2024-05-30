@@ -242,4 +242,16 @@ ok
 - OBJECT ACCESS seve para um objeto já instanciado acessar e modificar um valor de um segundo objeto 
 
 52-GETTERS E SETTERS
--
+-os termos get e set são usados por convenção, porém, as 2 funções podem ser nomeadas como achar melhor 
+-o GET se refere a retornar dados, o SET se refere a alterar o valor de uma propridade 
+
+53-STATIC
+-as propriedades e métodos 'static' de uma class, para serem acessadas não necessitam de instanciação, 
+    ou seja, podem ser acessadas e alteradas diretamente a partir da chamada da class e em seguida a 
+    a propriedade e/ou método 
+-geralmente o conceito de static é usado para quando se deseja ter funções mais 'generalistas', funções 
+    que não existem nativas no PHP, porém que tmb não quer ficar fazendo instanciações. 
+
+54-UM EXEMPLO PRÁTICO DO USO DE STATIC
+-funções genéricas de uso geral usando o conceito static
+
