@@ -217,3 +217,29 @@ ok
 
 48-OVERRIDE EM CLASSES
 -override permite, a classe derivada alterarem propriedades e métodos herdadas das classes principais
+
+49-IMPEDIR HERANÇA COM A EXPRESSÃO FINAL
+-a expressão FINAL, serve para que, uma classe derivada não possa fazer override de métodos da class 
+    pai 
+-lembrnado que o override srve para que a class derivada reusa a função da class pai, porem, permite 
+    alterar a ação da function 
+-o final pode ser usado na class pai tmb, impedindo que a class em si possa ser herdada 
+
+50-ACCESS LEVELS PUBLIC, PROTECTED E PRIVATE
+-são os 3 tipos de níveis de acesso para elementos dentro de uma class 
+-public = estão sempre acessíveis a partir do objeto instanciado, são públicas de modo geral 
+-protected = podem ser alcançados dentro da class e dentro de uma class que seja uma extenção
+     através de uma função que utilize a referida propriedade, ou seja, não é possível acessar diretamente 
+     a propriedade através do objeto instanciado 
+-as propriedades ou métodos private só podem ser acessadas quando instanciada a própria class onde eles 
+    estão e desde que estejam sendo chamadas através de uma função desta própria class. Mesmo estanciando 
+    a class onde a propriedade está, não é possível acessar diretamente a propridade, sendo necessário 
+    uma função a utilizando para acessar. 
+
+51-VAR E OBJECT ACCESS
+-só existe por retrocompatibilidade com versão antigas do PHP, porém não mais recomendada usar 
+-serve para definir uma propriedade da class como 'var'
+- OBJECT ACCESS seve para um objeto já instanciado acessar e modificar um valor de um segundo objeto 
+
+52-GETTERS E SETTERS
+-
