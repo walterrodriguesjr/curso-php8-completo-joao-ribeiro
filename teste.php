@@ -1,26 +1,22 @@
 <?php 
 
-class Humano
+trait Acoes 
 {
-
-    private $idade = 0;
-
-    function SetIdade($valor)
-    {
-        if(is_numeric($valor)){
-            $this->idade = $valor;
-        }else{
-            echo "Você precisa passar um valor numérido!" . "<br>";
-        }
+    function falar($fala){
+        echo "Ele disse: $fala";
     }
 
-    function getIdade()
-    {
-        return $this->idade;
+    function andar($passos){
+        echo "Ele deu $passos passos";
     }
 }
 
-$obj = new Humano();
-$obj->SetIdade(38);
-echo $obj->getIdade();
+class Humano
+{
+    use Acoes;
+}
 
+$obj = new Humano();
+$obj->falar("Bom dia!");
+echo "<br>";
+$obj->andar(20);

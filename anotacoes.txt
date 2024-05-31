@@ -255,3 +255,34 @@ ok
 54-UM EXEMPLO PRÁTICO DO USO DE STATIC
 -funções genéricas de uso geral usando o conceito static
 
+55-CONST, DEFINE E DEFINED
+-constantes são usadas para definir um valor fixo a uma variável ou propriedade 
+-usa-se o termo 'const' antes. Por padrão, as const são públicas, pelo fato de que por serem constantes, 
+    mesmo que sejam publicas, não existe risco de seus valores sejam alterados. 
+-podem ser chamadas usando a metologia de instanciação, bem como chamar direto como as static 
+-a conmstante é definida no escopo global do script 
+-não permite fazer concatenações 
+-é possível usar tmb a 'define' para criar constantes locais ou globais 
+-por convenção, os nomes devem ser em maiúsculo 
+
+56-CONSTANTES MÁGICAS
+-ok 
+
+57-BREVE ABORDAGEM SOBRE CLASSES ABSTRATAS
+-a classe abstrata podem tmb ter functions abstratadas, porem, a classe abstrata não pode ser instanciada 
+    diretamente para que seus parâmetros ou métodos sejam acessados, sendo necessário primeiro, criar 
+    uma classe extends dela, e ae então instancia esta classe para que possa ser acessada.
+-a classe abstrata pode pré definir functions, para que, a classe que herdar, possa de fato definir a 
+    ação da function e a usar 
+-não é muito comum utilizar 
+
+58-TRAITS E A SUA UTILIDADE
+-trait são um conjunto de métodos, que podem ser reutilizados em outra classe, sem 
+    a necessidade de fazer herança (extends). para isso, ao definir a class que irá fazer uso dos métodos 
+    da trait, deve apenas chamar a class trait através do comando 'use'. Em seguida, é possível fazer a 
+    instanciação da class que optou por usar os métodos da trait normalmente. 
+-o bloco de trait não é definida como uma class, por tanto não é uma classe, é um bloco de código. 
+
+59-INTRODUÇÃO AO INCLUDE
+-
+
