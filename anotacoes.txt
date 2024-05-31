@@ -284,5 +284,57 @@ ok
 -o bloco de trait não é definida como uma class, por tanto não é uma classe, é um bloco de código. 
 
 59-INTRODUÇÃO AO INCLUDE
+-o INCLUDE é uma ferramenta de importação de script, servem para você trazer dados que estão em outro arquivo do 
+    código, para este em que você o está chamado
+-ao fazer o include, os dados referentes ao arquivo importado, ficam disponíveis no arquivo atual 
+-o include pode usar tanto o caminho realtivo, quando o caminho absoluto, sempre usando o ../ 
+
+60-UTILIZAÇÃO DO REQUIRE E DIFERENÇA RELATIVAMENTE AO INCLUDE
+-além do include, ainda existem outras 3 formas de importação de scripts 
+-require = a diferença para o include é que, o include se falhar a leitura do código ainda continua, já 
+    o require, caso haja falha, ele para a execução dó código  
+
+61-INCLUDE ONCE, REQUIRE ONCE E RETURN NAS INCLUSÕES
+-INCLUDE_ONCE = incluir uma única vez, se foi anteriormente incluído, o php ignora
+-REQUIRE_ONCE = requerir uma única vez, se foi anteriormente requerido, o php ignora
+-ambos são mais aconselhavel, pois assegura o sucesso da ação
+
+62-DECLARATION TYPES
+-serve para poder tipar as variáveis, pois o php é fracamente tipado, e não exige a tipagem, porem, 
+    possibilita caso queria fazer 
+-é possível tipificar variáveis diversas, parâmetros ou argumentos de funções
+
+63-STRINCT TYPING
+-o php tende a converter os tipos de dados para que o sistema funcione, no caso de que uma função com 
+    parâmetro tipado seja string, e no argumento da chamada da função, passse um int, ele converte  
+    porém, usando o método nativo chamado: declare(strict_types=1) no início do script, ele força o php 
+    a exigir a tipagem correta 
+-é possível ter mais de uma opção de tipagem no parâmetro da função 
+
+64-TYPE CONVERSIONS
+-serve para converter o tipo de dado de uma variavel, quando atribuido a outra variável 
+
+65-TESTANDO VARIÁVEIS, ISSET, EMPTY, IS NULL E UNSET
+-são métodos nativos do php para fazer diversos tipos de teste 
+-isset = serve para saber se está definida uma variável, retornando um boolean 
+-empty = serve para verificar se uma variável existente, está vazia, com 0, null ou false, retorna um boolean
+-unset = serve para que, uma variável que já tenha um determinado dado, ao usar unset, ela limpa a variável  
+    da memória, como se não existisse(garbage collector) 
+
+66-NULL COALESCING OPERADOR
+-ok 
+
+67-VERIFICAR TIPOS DE VARIÁVEIS
+-são métodos nativos do php para verificar e validar o tipo de dados contido dentro de uma determinada 
+    variável 
+-is_array(), is_bool(), is_float() etc... 
+
+68-PRINT R, VAR DUMP E VAR EXPORT
+-serve para obter informações de conteúdo a partir de uma variável 
+-print_r = para debugar dados tipo array ou objeto
+-var_dump = informa o conteúdo e o tipo da variável
+-var_export = exibe o conteúdo entre aspas
+
+69-FINAL DA PLAYLIST
 -
 

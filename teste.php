@@ -1,22 +1,7 @@
 <?php 
 
-trait Acoes 
-{
-    function falar($fala){
-        echo "Ele disse: $fala";
-    }
+$nome = "Walter";
+var_export($nome);
 
-    function andar($passos){
-        echo "Ele deu $passos passos";
-    }
-}
 
-class Humano
-{
-    use Acoes;
-}
 
-$obj = new Humano();
-$obj->falar("Bom dia!");
-echo "<br>";
-$obj->andar(20);
